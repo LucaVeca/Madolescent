@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2017, 11:16:44 AM
+    Author     : Student
+*/
+@font-face {
+    font-family: SEGA;
+    src: url(fonts/SEGA.TTF);
+}
+
+@font-face {
+    font-family: bomb;
+    src: url(fonts/bomb.ttf);
+}
+
+@font-face {
+    font-family: social;
+    src: url(fonts/social_shapes.ttf);
+}
+
+
+body{
+    background-image: url('images/blurs.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div {
+    padding-top: 195px;
+}
+
+#title{
+    font-size: 100px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#sub{
+    font-size: 25px;
+    padding-top: 1px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#line{
+    width: 70%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+}
+
+#buttons{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#topbuttons{
+    font-size: 25px;
+    margin-right: 120px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.social{
+    margin-bottom: auto;
+    background: none;
+    text-align: center;
+}
+
+#socialbuttons{
+    background: none;
+    border: none;
+    color: white;
+    font-family: social;
+    font-size: 50px;
+}
