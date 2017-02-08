@@ -74,6 +74,12 @@ div {
     color: white;
     font-family: arial;
     font-weight: bold;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+#topbuttons:hover {
+  opacity: 0.75;
 }
 
 .social{
@@ -88,4 +94,10 @@ div {
     color: white;
     font-family: social;
     font-size: 50px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+ 
+ #socialbuttons:hover {
+  opacity: 0.75;
 }

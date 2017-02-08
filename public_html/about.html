@@ -12,6 +12,7 @@ and open the template in the editor.
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="about.css">
+        <script src="about.js"></script>
         <title>About</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,5 +27,20 @@ and open the template in the editor.
             <a href="about.html"><button id="topbuttons" type="button">ABOUT</button></a>
             </center>
         </div>
+       
+        <div id="carousel" class="spin">
+        <figure id="spinner">
+            <img src="images/english1.jpg" alt style="width:415px;height:260px;">
+            <img src="images/IMG_01571.jpg" alt style="width:415px;height:260px;">
+            <img src="images/IMG_01591.jpg" alt style="width:415px;height:260px;">
+            <img src="images/IMG_01671.jpg" alt style="width:415px;height:260px;">
+            <img src="images/IMG_01691.jpg" alt style="width:415px;height:260px;">
+            <img src="images/IMG_01701.jpg" alt style="width:415px;height:260px;">
+            <img src="images/closeup.jpg" alt style="width:415px;height:260px;">
+            <img src="images/print.jpg" alt style="width:415px;height:260px;">
+        </figure>
+        </div>
+        <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+        <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
     </body>
 </html>

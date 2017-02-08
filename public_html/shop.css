@@ -19,6 +19,15 @@ body{
     padding-top: 10px;
 }
 
+ #topbuttons {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+ 
+ #topbuttons:hover {
+  opacity: 0.75;
+}
+
 #buttons{
     display: inline-block;
     text-align: center;
