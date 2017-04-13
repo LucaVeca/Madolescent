@@ -22,13 +22,8 @@ and open the template in the editor.
     src: url(fonts/social_shapes.ttf);
 }
 
-
 body{
-    background-image: url('images/blurs.jpg'); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+   background-color: black;
 }
 div {
     padding-top: 195px;
@@ -86,6 +81,7 @@ div {
     margin-bottom: auto;
     background: none;
     text-align: center;
+    padding-top: 150px;
 }
 
 #socialbuttons{
@@ -101,3 +97,8 @@ div {
  #socialbuttons:hover {
   opacity: 0.75;
 }
+
+audio {
+    background-color: black;
+}
+
