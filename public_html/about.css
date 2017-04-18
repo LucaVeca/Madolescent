@@ -102,3 +102,18 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     font-family: arial;
     font-weight: bold;
 }
+
+ #map {
+        height: 400px;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+       }
+       
+       #stores{
+           font-size: 70px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 40px;
+       }
